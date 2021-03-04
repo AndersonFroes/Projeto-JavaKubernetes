@@ -241,7 +241,7 @@ curl --location --request POST 'http://dev.local/app/users' \
 }'
 `
 
-## Pare 4 - debug app:
+## Parte 4 - debug app:
 add   JAVA_OPTS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
  
 change CMD to ENTRYPOINT on Dockerfile
